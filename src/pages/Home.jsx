@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/images/logo.png'
+
 
 const Home = () => (
   <section className="container mx-auto px-4 py-16 text-center">
