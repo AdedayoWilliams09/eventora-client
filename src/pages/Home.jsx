@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from '../assets/images/logo.png' // ✅ Import image from src
 
 const Home = () => (
   <section className="container mx-auto px-4 py-16 text-center">
@@ -8,7 +8,7 @@ const Home = () => (
       The next-gen event booking & management platform.
     </p>
     <img
-      src="./src/assets/images/logo.png"
+      src={logo} // ✅ Use imported reference
       alt="Eventora Logo"
       className="mx-auto w-auto h-20"
     />
