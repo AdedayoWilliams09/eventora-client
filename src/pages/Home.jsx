@@ -8,7 +8,7 @@ const Home = () => (
       The next-gen event booking & management platform.
     </p>
     <img
-      src="/src/assets/images/logo.png"
+      src="./src/assets/images/logo.png"
       alt="Eventora Logo"
       className="mx-auto w-auto h-20"
     />
